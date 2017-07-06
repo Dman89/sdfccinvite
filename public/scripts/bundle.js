@@ -33345,9 +33345,9 @@ webpackJsonp([0,1],[
 	  _createClass(Welcome, [{
 	    key: 'renderSignup',
 	    value: function renderSignup() {
-	      //if (this.props.authenticated) {
-	      //  return "hidden";
-	      //}
+	      if (this.props.authenticated) {
+	        return "hidden";
+	      }
 	      return "container";
 	    }
 	  }, {
@@ -33379,7 +33379,7 @@ webpackJsonp([0,1],[
 	          ),
 	          _react2.default.createElement(
 	            'div',
-	            { className: this.renderOther() },
+	            null,
 	            _react2.default.createElement(_WelcomePageLinks2.default, null)
 	          )
 	        )

@@ -10,9 +10,9 @@ class Welcome extends Component {
     super(props);
   }
   renderSignup() {
-    //if (this.props.authenticated) {
-    //  return "hidden";
-    //}
+    if (this.props.authenticated) {
+      return "hidden";
+    }
     return "container";
   }
   renderOther() {
@@ -31,7 +31,7 @@ class Welcome extends Component {
           <div className={this.renderSignup()}>
             <Signup />
           </div>
-          <div className={this.renderOther()}>
+          <div>
             <WelcomePageLinks />
           </div>
         </div>
