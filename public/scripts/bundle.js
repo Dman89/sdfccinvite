@@ -33371,7 +33371,7 @@ webpackJsonp([0,1],[
 	        ),
 	        _react2.default.createElement(
 	          'div',
-	          { className: 'p-y-xl' },
+	          { className: 'p-y-xl container' },
 	          _react2.default.createElement(
 	            'div',
 	            { className: this.renderSignup() },

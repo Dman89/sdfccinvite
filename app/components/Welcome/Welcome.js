@@ -27,7 +27,7 @@ class Welcome extends Component {
         <div className="">
           <Banner />
         </div>
-        <div className="p-y-xl">
+        <div className="p-y-xl container">
           <div className={this.renderSignup()}>
             <Signup />
           </div>
