@@ -1,5 +1,5 @@
 const mongoose = require('mongoose');
-mongoose.connect('mongodb://Overlord:BobRoss420@ds043982.mlab.com:43982/alehub', function(err) {
+mongoose.connect(process.env.T ? process.env.T : require("./config").T, function(err) {
   if (err) {
     console.log("Error Connecting");
   } else {
