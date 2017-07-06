@@ -1,0 +1,38 @@
+.Banner {
+  min-height: 300px;
+  width: 100%;
+  position: relative;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  & .white-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: white;
+    opacity: .8;
+    height: 100%;
+    width: 100%;
+    z-index: 3;
+  }
+  & h1.banner-title {
+    z-index: 4;
+    color: black;
+    text-align: center;
+    margin-top: 0;
+    position: relative;
+    top: 75px;
+    font-weight: 200;
+    text-shadow: 1px 1px 10px rgba(0, 0, 0, .35);
+    font-size: 3.5em;
+    font-family: "Source Sans Pro", Helvetica, Arial, sans-serif;
+    padding: 0 20px;
+  }
+}
+
+
+@media (max-width: 234px) {
+  h1.banner-title {
+    top: 50px;
+  }
+}

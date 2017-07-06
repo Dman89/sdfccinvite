@@ -1,0 +1,50 @@
+
+
+.ConfirmationPanel {
+  &.panel {
+    border-radius: 6px;
+    &.panel-success {
+      background-color: #2EB256;
+    }
+  }
+  & .panel-body {
+    text-align: center;
+    padding: 50px;
+    font-size: 5em;
+    & .panel-icon {
+      & i {
+        font-size: 3em;
+        color: #ddd;
+      }
+    }
+    & h4.panel-title {
+      font-size: 4rem;
+    line-height: 4.2rem;
+      color: #ddd;
+    }
+    & p {
+      font-size: .35em;
+      padding-top: 30px;
+      &.text-muted {
+        color: #cdc;
+      }
+    }
+  }
+  & .panel-footer {
+    text-align: center;
+    & h4, & .list-group-item, & .panel-social {
+      display: block;
+      clear: both;
+      margin: 10px;
+      margin-top: 20px;
+    }
+    & h4.panel-title {
+      font-size: 1.4em;
+    }
+    & .panel-social {
+      font-size: 2em;
+      padding-top: 20px;
+      padding-bottom: 20px;
+    }
+  }
+}

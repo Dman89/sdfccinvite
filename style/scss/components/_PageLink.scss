@@ -1,0 +1,43 @@
+.PageLink {
+  width: 300px;
+  height: 300px;
+  border-radius: 6px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin: auto;
+  margin-bottom: 50px;
+  & .panel-body {
+    border-radius: 6px;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    opacity: .7;
+    margin: auto;
+    & h4.panel-title {
+      position: relative;
+      top: 120px;
+      font-size: 36px;
+    }
+  }
+  & a {
+    color: white;
+    &:hover {
+      text-decoration: none;
+    }
+  }
+}
+
+@media (max-width: 420px) {
+  .PageLink {
+    width: 175px;
+    height: 175px;
+    & .panel-body {
+      & h4.panel-title {
+        top: 45px;
+        font-size: 24px;
+        line-height: 26px;
+      }
+    }
+  }
+}

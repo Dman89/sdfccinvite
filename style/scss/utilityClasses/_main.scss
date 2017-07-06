@@ -1,0 +1,60 @@
+/*
+*
+*    Utility Classes
+*
+*/
+
+@mixin padding-margin-utility($label, $utilsize) {
+.p-t-#{$label} {
+padding-top: $utilsize;
+}
+.p-r-#{$label} {
+padding-right: $utilsize;
+}
+.p-b-#{$label} {
+padding-bottom: $utilsize;
+}
+.p-l-#{$label} {
+padding-left: $utilsize;
+}
+.p-x-#{$label} {
+padding-left: $utilsize;
+padding-right: $utilsize;
+}
+.p-y-#{$label} {
+padding-bottom: $utilsize;
+padding-top: $utilsize;
+}
+
+.wrapper-#{$label} {
+padding: $utilsize;
+}
+
+.m-t-#{$label} {
+margin-top: $utilsize;
+}
+.m-r-#{$label} {
+margin-right: $utilsize;
+}
+.m-b-#{$label} {
+margin-bottom: $utilsize;
+}
+.m-l-#{$label} {
+margin-left: $utilsize;
+}
+.m-x-#{$label} {
+margin-bottom: $utilsize;
+margin-top: $utilsize;
+}
+.m-y-#{$label} {
+margin-left: $utilsize;
+margin-right: $utilsize;
+}
+}
+
+@include padding-margin-utility("xs", $size-xs);
+@include padding-margin-utility("sm", $size-sm);
+@include padding-margin-utility("md", $size-md);
+@include padding-margin-utility("lg", $size-lg);
+@include padding-margin-utility("xl", $size-xl);
+@include padding-margin-utility("xxl", $size-xxl);

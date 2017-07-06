@@ -1,0 +1,9 @@
+.SignUp {
+  margin-bottom: $size-xl;
+  & .panel-footer {
+    height: 55px;
+  }
+  & .disabled {
+    pointer-events: none;
+  }
+}
