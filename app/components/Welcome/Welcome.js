@@ -13,11 +13,11 @@ class Welcome extends Component {
     if (this.props.authenticated) {
       return "hidden";
     }
-    return "container";
+    return "";
   }
   renderOther() {
     if (this.props.authenticated) {
-      return "container";
+      return "";
     }
     return "hidden";
   }
@@ -27,7 +27,7 @@ class Welcome extends Component {
         <div className="">
           <Banner />
         </div>
-        <div className="p-y-xl container">
+        <div className="wrapper-lg m-n container">
           <div className={this.renderSignup()}>
             <Signup />
           </div>

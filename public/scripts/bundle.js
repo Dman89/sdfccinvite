@@ -33348,13 +33348,13 @@ webpackJsonp([0,1],[
 	      if (this.props.authenticated) {
 	        return "hidden";
 	      }
-	      return "container";
+	      return "";
 	    }
 	  }, {
 	    key: 'renderOther',
 	    value: function renderOther() {
 	      if (this.props.authenticated) {
-	        return "container";
+	        return "";
 	      }
 	      return "hidden";
 	    }
@@ -33371,7 +33371,7 @@ webpackJsonp([0,1],[
 	        ),
 	        _react2.default.createElement(
 	          'div',
-	          { className: 'p-y-xl container' },
+	          { className: 'wrapper-lg m-n container' },
 	          _react2.default.createElement(
 	            'div',
 	            { className: this.renderSignup() },

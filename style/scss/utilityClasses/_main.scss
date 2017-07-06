@@ -3,6 +3,12 @@
 *    Utility Classes
 *
 */
+.m-n {
+  margin: 0;
+}
+.p-n {
+  padding: 0;
+}
 
 @mixin padding-margin-utility($label, $utilsize) {
 .p-t-#{$label} {
