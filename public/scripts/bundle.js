@@ -31669,7 +31669,7 @@ webpackJsonp([0,1],[
 /* 319 */
 /***/ (function(module, exports, __webpack_require__) {
 
-	/* WEBPACK VAR INJECTION */(function(process) {'use strict';
+	'use strict';
 
 	Object.defineProperty(exports, "__esModule", {
 	  value: true
@@ -31694,8 +31694,8 @@ webpackJsonp([0,1],[
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-	var port = process.env.PORT || 3000;
-	var ROOT_URL = process.env.ROOT_URL || "http://localhost:" + port;
+	var port = 3000;
+	var ROOT_URL = "https://sandiegofcc.herokuapp.com/" || "http://localhost:" + port;
 	var browserHistory = void 0;
 	// if (localStorage.length === 0) {
 	//   let localStorage = require("../test/mocklocalstorage.js");
@@ -31785,7 +31785,6 @@ webpackJsonp([0,1],[
 	    (0, _axios2.default)(ROOT_URL + "/api/profile/", config).then(function (res) {});
 	  };
 	}
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(5)))
 
 /***/ }),
 /* 320 */
@@ -33952,7 +33951,7 @@ webpackJsonp([0,1],[
 	            _react2.default.createElement(
 	              'div',
 	              { className: 'row' },
-	              _react2.default.createElement(_PageLink2.default, { link: l })
+	              _react2.default.createElement(_PageLink2.default, { link: l, key: i })
 	            )
 	          );
 	        })
@@ -34016,7 +34015,7 @@ webpackJsonp([0,1],[
 	    value: function render() {
 	      return _react2.default.createElement(
 	        'div',
-	        { className: 'panel panel-default PageLink', style: { backgroundImage: "url(" + this.state.img + ")" } },
+	        { className: 'panel panel-default PageLink', style: { backgroundImage: "url(" + this.state.img + ")" }, key: this.props.key },
 	        _react2.default.createElement(
 	          'a',
 	          { className: '', href: this.state.href },

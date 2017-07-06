@@ -11,14 +11,14 @@ class PageLink extends Component {
   }
   render() {
     return (
-      <div className="panel panel-default PageLink" style={{backgroundImage: "url("+this.state.img+")"}}>
+      <div className="panel panel-default PageLink" style={{backgroundImage: "url("+this.state.img+")"}} key={this.props.key}>
         <a className="" href={this.state.href}>
-        <div className="panel-body">
-            <h4 className="panel-title">
-              {this.state.text}
-            </h4>
-        </div>
-      </a>
+          <div className="panel-body">
+              <h4 className="panel-title">
+                {this.state.text}
+              </h4>
+          </div>
+        </a>
       </div>
     )
   }
