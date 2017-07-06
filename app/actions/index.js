@@ -2,7 +2,7 @@ import axios from 'axios';
 import * as Router from 'react-router';
 import {AUTH_USER, UNAUTH_USER, AUTH_ERROR} from './types';
 const port = 3000;
-const ROOT_URL = "https://sandiegofcc.herokuapp.com/" || "http://localhost:"+port;
+const ROOT_URL = "https://sandiegofcc.herokuapp.com" || "http://localhost:"+port;
 let browserHistory;
 // if (localStorage.length === 0) {
 //   let localStorage = require("../test/mocklocalstorage.js");

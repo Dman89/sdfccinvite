@@ -31695,7 +31695,7 @@ webpackJsonp([0,1],[
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 	var port = 3000;
-	var ROOT_URL = "https://sandiegofcc.herokuapp.com/" || "http://localhost:" + port;
+	var ROOT_URL = "https://sandiegofcc.herokuapp.com" || "http://localhost:" + port;
 	var browserHistory = void 0;
 	// if (localStorage.length === 0) {
 	//   let localStorage = require("../test/mocklocalstorage.js");
