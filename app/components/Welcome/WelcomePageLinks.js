@@ -32,9 +32,9 @@ class WelcomePageLinks extends Component {
       <div className="row WelcomePageLinks">
         {this.state.links.map(function(l, i) {
           return (
-            <div className="col-xs-12 col-sm-12 col-md-4 col-lg-4 text-center PageLinks">
+            <div className="col-xs-12 col-sm-12 col-md-4 col-lg-4 text-center PageLinks" key={i}>
               <div className="row">
-                <PageLink link={l} key={i}/>
+                <PageLink link={l}/>
               </div>
             </div>
           )
