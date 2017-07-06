@@ -34146,7 +34146,7 @@ webpackJsonp([0,1],[
 	    value: function render() {
 	      return _react2.default.createElement(
 	        'div',
-	        { className: 'col-xs-12 col-sm-8 col-md-8 col-lg-8 col-lg-offset-2 col-md-offset-2 col-sm-offset-2' },
+	        { className: 'col-xs-12 col-sm-8 col-md-8 col-lg-8 col-lg-offset-2 col-md-offset-2 col-sm-offset-2 p-t-xl' },
 	        _react2.default.createElement(
 	          'div',
 	          { className: 'panel panel-success ConfirmationPanel' },

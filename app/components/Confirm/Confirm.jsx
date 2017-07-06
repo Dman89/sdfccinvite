@@ -5,7 +5,7 @@ import * as actions from '../../actions';
 class Confirm extends Component {
   render() {
     return (
-      <div className="col-xs-12 col-sm-8 col-md-8 col-lg-8 col-lg-offset-2 col-md-offset-2 col-sm-offset-2" >
+      <div className="col-xs-12 col-sm-8 col-md-8 col-lg-8 col-lg-offset-2 col-md-offset-2 col-sm-offset-2 p-t-xl" >
         <div className="panel panel-success ConfirmationPanel">
 
           <div className="panel-body">
