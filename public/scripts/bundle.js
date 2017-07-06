@@ -33371,7 +33371,7 @@ webpackJsonp([0,1],[
 	        ),
 	        _react2.default.createElement(
 	          'div',
-	          { className: 'wrapper-lg m-n container' },
+	          { className: 'wrapper-lg m-n-auto container' },
 	          _react2.default.createElement(
 	            'div',
 	            { className: this.renderSignup() },

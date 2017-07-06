@@ -27,7 +27,7 @@ class Welcome extends Component {
         <div className="">
           <Banner />
         </div>
-        <div className="wrapper-lg m-n container">
+        <div className="wrapper-lg m-n-auto container">
           <div className={this.renderSignup()}>
             <Signup />
           </div>
