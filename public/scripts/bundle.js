@@ -31782,7 +31782,7 @@ webpackJsonp([0,1],[
 	    var config = { headers: {
 	        authorization: localStorage.getItem('token')
 	      } };
-	    (0, _axios2.default)(ROOT_URL + "/api/profile/", config).then(function (res) {});
+	    _axios2.default.get(ROOT_URL + "/api/profile/", config).then(function (res) {});
 	  };
 	}
 

@@ -83,7 +83,7 @@ export function fetchMessage() {
     const config = {headers: {
       authorization: localStorage.getItem('token')
     }}
-    axios(ROOT_URL+"/api/profile/", config)
+    axios.get(ROOT_URL+"/api/profile/", config)
     .then((res)=> {
 
     })
