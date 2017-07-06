@@ -8,7 +8,7 @@ let chaiHttp = require('chai-http');
 let server = require('../../../server/index_server.js');
 let should = chai.should();
 const PORT = process.env.PORT || 3001;
-const ROOT_URL = process.env.ROOT_URL || "http://localhost:"+PORT;
+const ROOT_URL = process.env.ROOT_URL || "http://localhost:"+port;
 chai.use(chaiHttp);
 
 describe("API Calls:", function() {
