@@ -9,7 +9,8 @@
   },
   "scripts": {
     "test": "mocha -r mock-local-storage --compilers js:babel-core/register --require ./app/test/test_helper.js --recursive ./app/test",
-    "start": "start cmd /k webpack --watch && start cmd /k npm run tw && nodemon",
+    "start": "nodemon"
+    "dev_start": "start cmd /k webpack --watch && start cmd /k npm run tw && nodemon",
     "dev": "webpack-dev-server --hot --inline --progress --content-base public",
     "dev2": "node ./node_modules/webpack-dev-server/bin/webpack-dev-server.js",
     "test:watch": "npm run test -- --watch",
